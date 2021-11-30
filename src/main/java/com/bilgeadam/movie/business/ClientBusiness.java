@@ -45,7 +45,7 @@ public class ClientBusiness {
 			BAUtils.header(Messages.getString("ClientBusiness.36"));
 			String exist = BAUtils.isDatabaseExist();
 			if (exist.equalsIgnoreCase("1")) {
-				System.out.println(" Database Daha Önce Oluşturulmuştur+\n");
+				System.out.println(" Database Daha Önce Oluşturulmuştur...+\n");
 				
 			}
 			
